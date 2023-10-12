@@ -1,0 +1,274 @@
+html,body{width: 100%;
+height: 100%;
+margin: 0px;
+padding: 0px;
+overflow-x: hidden;
+background: white;}
+
+.nav img{position:relative;
+margin-top: 10px;}
+
+.nav:hover {
+    animation: bounce 0.5s ease-in-out forwards;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.nav1 p{color: orange;
+font-weight: 600;
+font-size: 20px;
+text-align: center;
+font-style: italic;
+position: relative;
+padding-left: 20px;
+padding-top: 80px;
+z-index: 100}
+
+.nav1 h1{color: white;
+font-weight: 800;
+text-align: center;
+font-size: 40px;
+position: relative;
+padding-left: 30px;
+z-index: 100}
+
+
+.nav2{margin-top: -280px;
+top: 0;}
+
+.nav02 img{height: 750px;
+width: 100%;
+margin-top: -150px}
+
+.nav2 img{height: 820px;
+width: 100%;
+margin-top: -210px}
+
+.nav3 img{height: 100px;
+width: 100px;
+border-radius: 50%;
+position: relative;
+margin-top: -530px;
+margin-left: 530px;}
+
+.nav3 p{color: white;
+position: relative;
+margin-top: -220px;
+font-style: italic;
+font-size: 25px;
+font-weight: 500;
+margin-left: 470px;}
+
+.nav3 p1{color: white;
+margin-left: 540px;
+font-size: 25px;
+font-weight: 500;}
+
+.nav4 h2{font-size: 45px;
+padding-top: 20px;
+color: black;}
+
+.nav5 h2{font-size: 30px;
+padding-top: 20px;
+color: orange;}
+
+.nav6 img{width: 100%;
+margin-bottom: 30px;}
+
+.nav9 h1{padding-top: 40px;
+color: white;
+font-weight: 700;}
+
+.nav8{background: #121212;
+margin: 10px;
+height: 200px;
+width: 220px;
+border: solid silver 1px;}
+
+.nav8 h1{font-size: 20px;
+color: white;}
+
+.nav8{margin-bottom: 40px;}
+
+.nav8 p{font-size: 11px;
+color: white;}
+
+.nav8 a{text-decoration: none;
+color: white;}
+
+.nav7{background: black;}
+
+.nav4 ul li a{text-decoration: none;
+color: #121212;
+margin: 20px;}
+
+
+
+.nav12{margin-top: 50px;
+background: #ff6240;}
+
+.nav12 p{color: white;
+font-size: 20px;
+padding-top: 30px;}
+
+.nav12 h1{font-size: 45px;
+font-weight: 700;
+color: white;
+padding-top: -20px;}
+
+.nav12 p1{color: white;
+font-size: 17px;}
+
+.nav12 h5{padding-top: 40px;
+color: white;}
+
+.nav12 h3{padding-top: 40px;
+color: white;
+font-size: 20px;}
+
+.nav12 h2{color: white;
+font-size: 30px;
+padding-left: 30px;}
+
+.nav12 h4{color: white;
+font-size: 30px;
+padding-left: 30px;}
+
+.nav16{background: white;
+border-bottom: solid black 2px;}
+
+.nav16 p{padding-top: 90px;
+font-size: 30px;
+color: black;}
+
+.nav16 h1{font-size: 40px;}
+
+.nav16 p1{font-size: 30px;
+color: black;}
+
+.nav16 p2{font-size: 15px;
+color: black;
+padding: 30px;}
+
+.nav16 img{margin-top: 20px;
+margin-left: 50px;}
+
+.nav20 h1{margin-top: 30px;
+font-size: 45px;
+font-weight: 700;
+text-align: center;
+color: black;
+padding-top: 50px;}
+
+.nav21{margin-top: 120px;
+margin-left: 20px;}
+
+.nav22{margin-top: 70px;
+margin-left: 50px;}
+
+.nav23 p{text-align: center;
+color: black;
+font-size: 20px;
+padding-bottom: 50px;}
+
+.nav27{background: #111111;}
+
+.nav24 h1{color: white;
+font-size: 35px;
+padding-top: 50px;}
+
+.nav24 input{width: 350px;
+height: 50px;
+margin: 8px;
+background: #111111;
+border: solid white 1px;
+color: white;
+padding-left: 20px;
+width: 90%;}
+
+.nav24 a{padding: 12px 40px;
+margin-top: 40px;
+margin: 8px;
+background: orange;
+margin-bottom: 30px;
+border: solid white 1px;}
+
+.nav25 h1{color: white;
+margin-top: 90px;}
+
+.nav25 p{color: white;}
+
+.nav26{background: black;}
+
+.nav26 h1{font-size: 30px;
+color: orange;
+font-weight: 600;
+text-align: center;
+padding: 20px;}
+
+nav{background: black;}
+
+footer{background: #111111;}
+
+header{background: black;}
+
+.bouncing-text {
+    font-size: 36px;
+    color: #3498db;
+    position: relative;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+.zoom-text:hover {
+    animation: zoom 0.5s ease-in-out forwards;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+
+del{color: orange;}
+
+
+
+.nav8:hover{background: #f96e37;
+color: #3498db;
+animation: zoom 0.3s ease-in-out forwards;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
