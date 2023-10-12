@@ -112,10 +112,8 @@ color: white;}
 color: #121212;
 margin: 20px;}
 
-.nav10 img{ transition: filter 0.3s,
-transition: border 0.3s; /* Add a transition for a smooth hover effect */
-transform: scale(1);
-transition: all 0.5s;}
+.nav10 img{ overflow: hidden; /* Hide the overflow of the image */
+transition: border 0.3s; /* Add a transition for the border change on hover */}
 
 .nav12{margin-top: 50px;
 background: #ff6240;}
@@ -245,7 +243,7 @@ header{background: black;}
 }
 
 .zoom-text:hover {
-    filter: hue-rotate(90deg); /* Change the image color to orange on hover */
+    filter: invert(100%); /* Change the image color to orange on hover */
 }
 
 
@@ -266,7 +264,3 @@ animation: zoom 0.3s ease-in-out forwards;
         transform: scale(1.1);
     }
 }
-
-.nav10 a{}
-
-.bx:hover
