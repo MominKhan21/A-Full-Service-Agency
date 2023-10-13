@@ -168,7 +168,8 @@ padding: 30px;}
 margin-left: 50px;}
 
 .nav17 img{margin-bottom: 20px;
-margin-left: -12px;}
+margin-left: -1px;
+float: left;}
 
 .nav20 h1{margin-top: 30px;
 font-size: 45px;
@@ -254,6 +255,7 @@ header{background: black;}
 
 .zoom-text:hover {
     filter: invert(100%); /* Change the image color to orange on hover */
+    animation: zoom 0.3s ease-in-out forwards;
 }
 
 
@@ -274,3 +276,9 @@ animation: zoom 0.3s ease-in-out forwards;
         transform: scale(1.1);
     }
 }
+
+.nav17 p4{float: right;
+font-size: 10px;
+color: black;
+margin-top: 35px;
+padding-right: 140px;}
